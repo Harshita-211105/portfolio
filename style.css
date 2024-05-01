@@ -1,0 +1,46 @@
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    column-gap: 5rem;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.skills{
+    text-align: center;
+}
+
+.colour{
+    color: #AF8260;
+}
+
+.btn {
+    background: #AF8260;
+    background-image: -webkit-linear-gradient(top, #AF8260, #AF8260);
+    background-image: -moz-linear-gradient(top, #AF8260, #AF8260);
+    background-image: -ms-linear-gradient(top, #AF8260, #AF8260);
+    background-image: -o-linear-gradient(top, #AF8260, #AF8260);
+    background-image: linear-gradient(to bottom, #AF8260, #AF8260);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
